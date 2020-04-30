@@ -1,7 +1,7 @@
 name: Update coding stats
 on:
   schedule:
-    - cron: '1 * * * *' # every hour
+    - cron: '0 2-21 * * *' # every hour between 3AM and 10PM (UTC)
 jobs:
   update-gist:
     runs-on: ubuntu-latest
